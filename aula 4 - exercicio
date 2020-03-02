@@ -1,0 +1,40 @@
+ programa
+{
+	
+	funcao inicio()
+	{
+
+		real salario , hora, horaExtra, dependentes, salarioFinal, horasTrab, salarioMes, imposto, gratificacao
+
+		escreva(" Informe seu salário (R$):")
+		leia(salario)
+		escreva(" Informe suas horas trabalhadas: ")
+		leia(hora)
+
+
+		escreva(" Informe a quantidades de dependentes que você possui.")
+		leia(dependentes)
+
+		escreva(" Informe suas horas extras trabalhadas :") 
+		leia(horaExtra) 
+
+	     horasTrab = salario / 5
+	     salarioMes = horasTrab * hora 
+
+        
+          
+	     se (dependentes > 0) {
+	     dependentes = dependentes * 32
+	     }
+	     
+	   
+
+	   
+	         
+	    
+	    horaExtra = horasTrab += ( horasTrab * 50/100 )
+	   salarioFinal = salarioMes += dependentes += horaExtra
+	   escreva(" Seu salário final =" ,salarioFinal)
+	   
+	}
+}
