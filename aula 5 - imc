@@ -1,0 +1,47 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		real  peso ,altura ,imc
+
+          escreva ("Informe seu peso (KG)")
+          leia (peso)
+
+          escreva ("Informe sua altura(m)")
+          leia (altura)
+
+          imc=peso / (altura * altura)
+          escreva ("Seu IMC é " ,imc)
+
+          se (imc < 15) {
+          escreva ("Extremamente abaixo do peso")
+          }
+          se ( 15 <= imc e imc < 16) {
+          	escreva ("Gravemente abaixo do peso")
+          }
+          se (16 <= imc e imc < 18.5) {
+          	escreva ("Abaixo do peso ideal")
+          }
+          se ( 18 <= imc e imc < 25) {
+          	escreva ("Faixa de peso ideal")
+          }
+          se (25 <= imc e imc < 30) {
+          	escreva ("Sobrepeso")
+          }
+          se (30 <= imc e imc < 35) {
+          	escreva ("Obesidade Grau I")
+          }
+          se (35 <= imc e imc < 40) {
+          	escreva ("Obesidade Grau II (Grave)")
+          }
+          se ( imc > 40) {
+          escreva ("Obesidade Grau III (Mórbida)")
+          }
+
+         
+
+
+	     }
+              }     
+              
